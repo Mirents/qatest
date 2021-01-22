@@ -29,10 +29,10 @@ public class QcbvGUI extends JFrame {
         GridLayout layout = new GridLayout(3, 0, 5, 12);
         grid.setLayout(layout);
     
-        cbNumber = new JCheckBox("1");
-        rdbnSymbolsEN = new JCheckBox("2");
-        rdbnSymbolsRU = new JCheckBox("3");
-        rdbnSpecSymbols = new JCheckBox("4");
+        cbNumber = new JCheckBox("Цифры");
+        rdbnSymbolsEN = new JCheckBox("Буквы EN");
+        rdbnSymbolsRU = new JCheckBox("Буквы RU");
+        rdbnSpecSymbols = new JCheckBox("Спецсимволы");
         taResult = new JTextArea();
 
         grid.add(cbNumber);
